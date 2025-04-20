@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrain recreation</title>
+  <style>
+
+    .shell {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: rgb(7, 7, 7);
+      width: 100vh;
+      height: 100vh;
+    }
+
+    .main {
+      display: grid;
+      grid-template-columns: 45pt 42pt 42pt 92pt 50pt 50pt 28pt;
+      grid-template-rows: 54pt 93pt 91pt 42pt 42pt 20pt 20pt;
+      gap: 9px;
+      background-color: black;
+      width: 389pt;
+      height: 403pt;
+     
+    }
+
+    .main > * {
+      background-color: rgb(196, 192, 189);
+    }
+
+    .yellow {
+      background-color: rgb(218, 205, 74);
+    }
+
+    .red {
+      background-color: rgb(237, 25, 24);
+    }
+
+    .black {
+      background-color: rgb(23, 24, 28);
+      color: white;
+    }
+
+    .blue {
+      background-color: rgb(46, 51, 117);
+    }
+
+    .one {
+      grid-column: 1/3;
+    }
+
+    .two {
+      grid-column: 3/5;
+    }
+
+    .three {
+      grid-column: 5/7;
+    }
+
+    .four {
+      grid-column: 7/8;
+    }
+
+    .five {
+      grid-area: 2 / 1 / 3 / 2;
+    }
+
+    .six {
+      grid-area: 2 / 2 / 4 / 5;
+    }
+
+    .seven {
+      grid-column: 5 / 7;
+    }
+
+    .eight {
+      grid-area: 2 / 7 / 5 / 8;
+    }
+
+    .nine {
+      grid-area: 3 / 1 / 5 / 2;
+    }
+
+    .ten {
+      grid-area: 4 / 2 / 6 / 4;
+    }
+
+    .eleven {
+      grid-area: 4 / 4 / 5 / 5;
+    }
+
+    .twelve {
+     grid-area: 3 / 5 / 4 / 6;
+    }
+
+    .thirteen {
+      grid-area: 3 / 6 / 4 / 7;
+    }
+
+    .fourteen {
+      grid-area: 5 / 1 / 8 / 2;
+    }
+
+    .fifteen {
+      grid-area: 6 / 2 / 8 / 4;
+    }
+
+    .sixteen {
+      grid-area: 5 / 4 / 6 / 5;
+    }
+
+    .seventeen {
+      grid-area: 4 / 5 / 5 / 7;
+    }
+
+    .eighteen {
+      grid-area: 6 / 4 / 7 / 5;
+    }
+
+    .nineteen {
+      grid-area: 5 / 5 / 7 / 7;
+    }
+
+    .twenty {
+      grid-area: 5 / 7 / 8 / 8;
+      background-color: rgb(217, 92, 70);
+    }
+
+    .twenty-one {
+      grid-area: 7 / 4 / 8 / 7;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <div class="main">
+      <div class="one"></div>
+      <div class="two"></div>
+      <div class="yellow three"></div>
+      <div class="four"></div>
+      <div class="five"></div>
+      <div class="red six"></div>
+      <div class="yellow seven"></div>
+      <div class="eight"></div>
+      <div class="nine"></div>
+      <div class="black ten"></div>
+      <div class="eleven"></div>
+      <div class="twelve"></div>
+      <div class="thirteen"></div>
+      <div class="yellow fourteen"></div>
+      <div class="fifteen"></div>
+      <div class="sixteen"></div>
+      <div class="seventeen"></div>
+      <div class="eighteen black"></div>
+      <div class="nineteen blue"></div>
+      <div class="twenty red"></div>
+      <div class="twenty-one"></div>
+    </div>
+  </div>
+</body>
+</html>
